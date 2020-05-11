@@ -1,0 +1,130 @@
+
+
+
+ARM Macro Assembler    Page 1 
+
+
+    1 00000000         ; Stack-Define
+    2 00000000 00000100 
+                       Stack   EQU              0x00000100
+    3 00000000                 AREA             STACK, NOINIT, READWRITE, ALIGN
+=3
+    4 00000000         StackMem
+    5 00000000                 SPACE            Stack
+    6 00000100         __initial_sp
+    7 00000100         
+    8 00000100         ; Reset-Bereich + Vektoren definieren
+    9 00000100                 AREA             RESET, CODE, READONLY
+   10 00000000                 THUMB
+   11 00000000                 EXPORT           __Vectors
+   12 00000000         __Vectors
+   13 00000000 00000100        DCD              StackMem + Stack
+   14 00000004 00000000        DCD              Reset_Handler
+   15 00000008         
+   16 00000008                 EXPORT           Reset_Handler
+   17 00000008         Reset_Handler
+   18 00000008                 IMPORT           Blinky
+   19 00000008 F7FF BFFE       B                Blinky      ;Branch / Springe z
+                                                            u Blinky.s
+   20 0000000C                 END
+Command Line: --debug --xref --diag_suppress=9931 --cpu=Cortex-M4.fp --apcs=int
+erwork --depend=.\objects\startup.d -o.\objects\startup.o -I.\RTE\_Target_1 -IC
+:\Users\yeuga\AppData\Local\Arm\Packs\Keil\LM4F_DFP\1.0.0\Device\Include -IC:\K
+eil_v5\ARM\CMSIS\Include --predefine="__EVAL SETA 1" --predefine="__UVISION_VER
+SION SETA 528" --predefine="LM4F120 SETA 1" --list=.\listings\startup.lst Start
+up.s
+
+
+
+ARM Macro Assembler    Page 1 Alphabetic symbol ordering
+Relocatable symbols
+
+STACK 00000000
+
+Symbol: STACK
+   Definitions
+      At line 3 in file Startup.s
+   Uses
+      None
+Comment: STACK unused
+StackMem 00000000
+
+Symbol: StackMem
+   Definitions
+      At line 4 in file Startup.s
+   Uses
+      At line 13 in file Startup.s
+Comment: StackMem used once
+__initial_sp 00000100
+
+Symbol: __initial_sp
+   Definitions
+      At line 6 in file Startup.s
+   Uses
+      None
+Comment: __initial_sp unused
+3 symbols
+
+
+
+ARM Macro Assembler    Page 1 Alphabetic symbol ordering
+Relocatable symbols
+
+RESET 00000000
+
+Symbol: RESET
+   Definitions
+      At line 9 in file Startup.s
+   Uses
+      None
+Comment: RESET unused
+Reset_Handler 00000008
+
+Symbol: Reset_Handler
+   Definitions
+      At line 17 in file Startup.s
+   Uses
+      At line 14 in file Startup.s
+      At line 16 in file Startup.s
+
+__Vectors 00000000
+
+Symbol: __Vectors
+   Definitions
+      At line 12 in file Startup.s
+   Uses
+      At line 11 in file Startup.s
+Comment: __Vectors used once
+3 symbols
+
+
+
+ARM Macro Assembler    Page 1 Alphabetic symbol ordering
+Absolute symbols
+
+Stack 00000100
+
+Symbol: Stack
+   Definitions
+      At line 2 in file Startup.s
+   Uses
+      At line 5 in file Startup.s
+      At line 13 in file Startup.s
+
+1 symbol
+
+
+
+ARM Macro Assembler    Page 1 Alphabetic symbol ordering
+External symbols
+
+Blinky 00000000
+
+Symbol: Blinky
+   Definitions
+      At line 18 in file Startup.s
+   Uses
+      At line 19 in file Startup.s
+Comment: Blinky used once
+1 symbol
+342 symbols in table

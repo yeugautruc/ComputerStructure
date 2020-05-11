@@ -1,0 +1,62 @@
+Dependencies for Project 'fadingLED', Target 'Target 1': (DO NOT MODIFY !)
+F (.\fadingLED.c)(0x5DF2108C)(-c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork --split_sections-I C:\Users\TEMP.DESKTOP-N67D37E.000.001.002.003\Downloads\fadingLEDProject\RTE-I C:\Keil\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include-I C:\Keil\ARM\PACK\Keil\LM4F_DFP\1.0.0\Device\Include-D__UVISION_VERSION="513" -D_RTE_ -DLM4F120 -DPART_LM4F120H5QR-o .\objects\fadingled.o --omf_browse .\objects\fadingled.crf --depend .\objects\fadingled.d)
+I (fadingLED.h)(0x5DF210B6)
+I (inc/hw_types.h)(0x5B3B69CA)
+I (inc/hw_ints.h)(0x5B3B69CA)
+I (inc/hw_memmap.h)(0x5B3B69CA)
+I (inc/lm4f120h5qr.h)(0x5B3B69CA)
+I (drivers/adc.h)(0x5B3B69C9)
+I (drivers/lcd.h)(0x5B486990)
+I (drivers/gpio.h)(0x5B3B69CA)
+I (drivers/pin_map.h)(0x5B3B69CA)
+I (drivers/timer.h)(0x5B3B69CA)
+I (drivers/sysctl.h)(0x5B3B69CA)
+I (drivers/interrupt.h)(0x5B3B69CA)
+I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x54764760)
+I (C:\Keil\ARM\ARMCC\include\stdlib.h)(0x54764760)
+F (.\fadingLED.h)(0x5DF210B6)()
+F (.\drivers\driverlib-cm4f.lib)(0x5B3B69CA)()
+F (.\drivers\lcd.c)(0x5D6FC89C)(-c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork --split_sections-I C:\Users\TEMP.DESKTOP-N67D37E.000.001.002.003\Downloads\fadingLEDProject\RTE-I C:\Keil\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include-I C:\Keil\ARM\PACK\Keil\LM4F_DFP\1.0.0\Device\Include-D__UVISION_VERSION="513" -D_RTE_ -DLM4F120 -DPART_LM4F120H5QR-o .\objects\lcd.o --omf_browse .\objects\lcd.crf --depend .\objects\lcd.d)
+I (drivers\../inc/lm4f120h5qr.h)(0x5B3B69CA)
+I (drivers\lcd.h)(0x5B486990)
+F (.\drivers\gpio.c)(0x5D6FC7A8)(-c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork --split_sections-I C:\Users\TEMP.DESKTOP-N67D37E.000.001.002.003\Downloads\fadingLEDProject\RTE-I C:\Keil\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include-I C:\Keil\ARM\PACK\Keil\LM4F_DFP\1.0.0\Device\Include-D__UVISION_VERSION="513" -D_RTE_ -DLM4F120 -DPART_LM4F120H5QR-o .\objects\gpio.o --omf_browse .\objects\gpio.crf --depend .\objects\gpio.d)
+I (drivers\../inc/hw_gpio.h)(0x5B3B69C9)
+I (drivers\../inc/hw_ints.h)(0x5B3B69CA)
+I (drivers\../inc/hw_memmap.h)(0x5B3B69CA)
+I (drivers\../inc/hw_sysctl.h)(0x5B3B69C9)
+I (drivers\../inc/hw_types.h)(0x5B3B69CA)
+I (drivers\debug.h)(0x5B3B69C9)
+I (drivers\gpio.h)(0x5B3B69CA)
+I (drivers\pin_map.h)(0x5B3B69CA)
+I (drivers\interrupt.h)(0x5B3B69CA)
+F (.\drivers\interrupt.c)(0x5DDD873A)(-c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork --split_sections-I C:\Users\TEMP.DESKTOP-N67D37E.000.001.002.003\Downloads\fadingLEDProject\RTE-I C:\Keil\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include-I C:\Keil\ARM\PACK\Keil\LM4F_DFP\1.0.0\Device\Include-D__UVISION_VERSION="513" -D_RTE_ -DLM4F120 -DPART_LM4F120H5QR-o .\objects\interrupt.o --omf_browse .\objects\interrupt.crf --depend .\objects\interrupt.d)
+I (drivers\../inc/hw_ints.h)(0x5B3B69CA)
+I (drivers\../inc/hw_nvic.h)(0x5B3B69C9)
+I (drivers\../inc/hw_types.h)(0x5B3B69CA)
+I (drivers\cpu.h)(0x5B3B69C9)
+I (drivers\debug.h)(0x5B3B69C9)
+I (drivers\interrupt.h)(0x5B3B69CA)
+F (.\drivers\sysctl.c)(0x5D6FC7FA)(-c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork --split_sections-I C:\Users\TEMP.DESKTOP-N67D37E.000.001.002.003\Downloads\fadingLEDProject\RTE-I C:\Keil\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include-I C:\Keil\ARM\PACK\Keil\LM4F_DFP\1.0.0\Device\Include-D__UVISION_VERSION="513" -D_RTE_ -DLM4F120 -DPART_LM4F120H5QR-o .\objects\sysctl.o --omf_browse .\objects\sysctl.crf --depend .\objects\sysctl.d)
+I (drivers\../inc/hw_ints.h)(0x5B3B69CA)
+I (drivers\../inc/hw_nvic.h)(0x5B3B69C9)
+I (drivers\../inc/hw_sysctl.h)(0x5B3B69C9)
+I (drivers\../inc/hw_types.h)(0x5B3B69CA)
+I (drivers\cpu.h)(0x5B3B69C9)
+I (drivers\debug.h)(0x5B3B69C9)
+I (drivers\interrupt.h)(0x5B3B69CA)
+I (drivers\sysctl.h)(0x5B3B69CA)
+F (.\drivers\timer.c)(0x5D6FC8C2)(-c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork --split_sections-I C:\Users\TEMP.DESKTOP-N67D37E.000.001.002.003\Downloads\fadingLEDProject\RTE-I C:\Keil\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include-I C:\Keil\ARM\PACK\Keil\LM4F_DFP\1.0.0\Device\Include-D__UVISION_VERSION="513" -D_RTE_ -DLM4F120 -DPART_LM4F120H5QR-o .\objects\timer.o --omf_browse .\objects\timer.crf --depend .\objects\timer.d)
+I (drivers\../inc/hw_ints.h)(0x5B3B69CA)
+I (drivers\../inc/hw_memmap.h)(0x5B3B69CA)
+I (drivers\../inc/hw_timer.h)(0x5B3B69C9)
+I (drivers\../inc/hw_types.h)(0x5B3B69CA)
+I (drivers\debug.h)(0x5B3B69C9)
+I (drivers\interrupt.h)(0x5B3B69CA)
+I (drivers\timer.h)(0x5B3B69CA)
+F (.\Retarget.c)(0x5D6FCB04)(-c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork --split_sections-I C:\Users\TEMP.DESKTOP-N67D37E.000.001.002.003\Downloads\fadingLEDProject\RTE-I C:\Keil\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include-I C:\Keil\ARM\PACK\Keil\LM4F_DFP\1.0.0\Device\Include-D__UVISION_VERSION="513" -D_RTE_ -DLM4F120 -DPART_LM4F120H5QR-o .\objects\retarget.o --omf_browse .\objects\retarget.crf --depend .\objects\retarget.d)
+I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x54764760)
+I (C:\Keil\ARM\ARMCC\include\rt_misc.h)(0x54764760)
+I (C:\Keil\ARM\ARMCC\include\stddef.h)(0x54764760)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x54764760)
+I (drivers/lcd.h)(0x5B486990)
+F (RTE\Device\LM4F120H5QR\Startup.s)(0x5DF0E832)(--cpu Cortex-M4.fp --pd "__EVAL SETA 1" -g --apcs=interwork -I C:\Users\TEMP.DESKTOP-N67D37E.000.001.002.003\Downloads\fadingLEDProject\RTE-I C:\Keil\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include-I C:\Keil\ARM\PACK\Keil\LM4F_DFP\1.0.0\Device\Include--pd "__UVISION_VERSION SETA 513" --pd "_RTE_ SETA 1" --pd "LM4F120 SETA 1"--list .\listings\startup.lst --xref -o .\objects\startup.o --depend .\objects\startup.d)

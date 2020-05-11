@@ -1,0 +1,32 @@
+The RTX_Blinky project is a simple RTX Kernel based example for 
+the TI MSP432' microcontroller using LaunchPad 
+Evaluation Board, compliant to Cortex Microcontroller 
+Software Interface Standard (CMSIS v4.0).
+
+Example functionality:                                                   
+ - Clock Settings:  =           48.00 MHz
+
+
+Serial Wire Viewer (SWV) Core Clock is 48 MHz.
+
+This is a simple RTX Kernel based example which simulates
+the step-motor driver. Four LEDs are blinking simulating
+the activation of the four output driver stages:
+
+- phase A
+- phase B
+- phase C
+- phase D
+
+This example simulates Half step driver mode and
+CW rotation direction.
+
+
+The Blinky program is available in different targets:
+
+ CMSIS-DAP - for on-board TI emulator (Onboard XDS-110ET)
+ ULINK2 - Keil ULINK2
+ ULINKpro - for use with Keil ULINKpro
+ J-Link - for Segger J-Link
+
+ 

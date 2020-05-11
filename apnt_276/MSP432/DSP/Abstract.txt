@@ -1,0 +1,15 @@
+This DSP example demonstrates the TI MSP432 LaunchPad eval board with ARM CMSIS-DSP libraries
+See www.arm.com/cmsis
+
+Serial Wire Viewer is used to graphically display the four global variables.
+SWV Core Clock is 48 Mhz.
+
+This example creates a sine wave with noise added, and then the noise is filtered out.
+The waveform in each step is displayed in the Logic Analyzer using Serial Wire Viewer and the Watch window.
+The four global variables are  sine, noise, disturbed and filtered.
+
+This example incorporates Keil RTX RTOS.  RTX is available free with a BSD license.  RTX Source code is provided.
+Two Kernel Awareness Viewers are part of Keil uVision.
+
+
+See www.keil.com/ti for additional information.

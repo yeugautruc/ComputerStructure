@@ -1,0 +1,6 @@
+--cpu Cortex-M4.fp --pd "__EVAL SETA 1" -g --apcs=interwork 
+-I.\RTE\_Target_1
+-IC:\Users\yeuga\AppData\Local\Arm\Packs\Keil\LM4F_DFP\1.0.0\Device\Include
+-IC:\Keil_v5\ARM\CMSIS\Include
+--pd "__UVISION_VERSION SETA 528" --pd "LM4F120 SETA 1"
+--list .\listings\blinky.lst --xref -o .\objects\blinky.o --depend .\objects\blinky.d "Blinky.s"

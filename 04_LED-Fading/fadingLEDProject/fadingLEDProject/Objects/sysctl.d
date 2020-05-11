@@ -1,0 +1,9 @@
+.\objects\sysctl.o: drivers\sysctl.c
+.\objects\sysctl.o: drivers\../inc/hw_ints.h
+.\objects\sysctl.o: drivers\../inc/hw_nvic.h
+.\objects\sysctl.o: drivers\../inc/hw_sysctl.h
+.\objects\sysctl.o: drivers\../inc/hw_types.h
+.\objects\sysctl.o: drivers\cpu.h
+.\objects\sysctl.o: drivers\debug.h
+.\objects\sysctl.o: drivers\interrupt.h
+.\objects\sysctl.o: drivers\sysctl.h

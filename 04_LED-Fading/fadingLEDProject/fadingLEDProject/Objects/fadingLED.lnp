@@ -1,0 +1,14 @@
+--cpu Cortex-M4.fp
+".\objects\fadingled.o"
+".\drivers\driverlib-cm4f.lib"
+".\objects\lcd.o"
+".\objects\gpio.o"
+".\objects\interrupt.o"
+".\objects\sysctl.o"
+".\objects\timer.o"
+".\objects\retarget.o"
+".\objects\startup.o"
+--strict --scatter ".\Objects\fadingLED.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\fadingLED.map" -o .\Objects\fadingLED.axf

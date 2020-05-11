@@ -1,0 +1,15 @@
+.\objects\fadingled.o: fadingLED.c
+.\objects\fadingled.o: fadingLED.h
+.\objects\fadingled.o: inc/hw_types.h
+.\objects\fadingled.o: inc/hw_ints.h
+.\objects\fadingled.o: inc/hw_memmap.h
+.\objects\fadingled.o: inc/lm4f120h5qr.h
+.\objects\fadingled.o: drivers/adc.h
+.\objects\fadingled.o: drivers/lcd.h
+.\objects\fadingled.o: drivers/gpio.h
+.\objects\fadingled.o: drivers/pin_map.h
+.\objects\fadingled.o: drivers/timer.h
+.\objects\fadingled.o: drivers/sysctl.h
+.\objects\fadingled.o: drivers/interrupt.h
+.\objects\fadingled.o: C:\Keil\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\fadingled.o: C:\Keil\ARM\ARMCC\Bin\..\include\stdlib.h
